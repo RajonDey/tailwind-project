@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'rdcFont';
+  src: url('../fonts/geomanist-regular-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/geomanist-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/geomanist-regular-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/geomanist-regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/geomanist-regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/geomanist-regular-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+p,
+body {
+  font-family: 'rdcFont','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+
+.Navbar__Items {
+    display:none;
+}
+.Navbar__ToggleShow {
+    display: flex;
+}
+
+.banner-section{
+	background-size: cover!important;
+	background-position: center center;
+	height: 90vh;
+	position: relative;
+}
+.banner-section:after {
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    height: 100px;
+    content: '';
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMTM4MCcgaGVpZ2h0PSc4OCcgdmlld0JveD0nMCAwIDEzODAgODgnIGZpbGw9J25vbmUnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PHBhdGggZD0nTTAgODcuNUgxMzgwVjI5Ljg2ODVDMTM4MCAyOS44Njg1IDEwNjcuMDQgLTM1LjY3NzUgNjg2LjU1IDI5Ljg2ODVDMzA2LjA2NCA5NS40MTQ0IDAgMjkuODY4NSAwIDI5Ljg2ODVWODcuNVonIGZpbGw9J3doaXRlJy8+PC9zdmc+Cg==);
+    background-repeat: repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+
+/*
+==================================
+    RESPONSIVE STYLING HERE
+==================================
+*/
+/*tablet*/
+@media (max-width: 768px) {
+
+}
+
+/*laptop*/
+@media (max-width: 1024px) {
+
+}
+
+/*desktop*/
+@media (min-width: 1280px) {
+
+}
+
